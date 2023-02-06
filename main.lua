@@ -118,6 +118,8 @@ Players.PlayerAdded:Connect(function(Player)
 	HUD.Name = "HUD"
 	HUD.Parent = Player.PlayerGui
 	HUD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	HUD.ResetOnSpawn = false
+	HUD.Enabled = true
 
 	SpielerID.Name = "SpielerID"
 	SpielerID.Parent = HUD
